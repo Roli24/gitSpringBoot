@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-
+import com.example.beans.Login;
 import com.example.beans.User;
 
 @Controller
@@ -39,16 +39,7 @@ public class HomeController {
         return "register";
     }
     
-    @ModelAttribute("newuser")
-    public User getDefaultUser()
-    {
-    	return new User();
-    }
+  
     
-    @ModelAttribute("genderItems")
-    public List<String> getGenderItems()
-    {
-    	return Arrays.asList(new String[] {"Male", "Female", "Other"});
-    }
 
 }
