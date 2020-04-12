@@ -20,7 +20,7 @@
 				<ul class="navbar">
 					<li><a href="/home">home</a></li>
 					<li><a href="/search">search</a></li>
-					<li><a href="">linkedIn</a></li>
+					 <li><a href="/redirectToLinkedin">linkedin</a></li>
 
 				</ul>
 				<!-- navbar -->
